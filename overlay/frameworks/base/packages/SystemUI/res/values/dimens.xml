@@ -20,6 +20,9 @@
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">6dp</dimen>
 
+     <!-- Disable dial pad tones by default -->
+    <bool name="def_dtmf_tones_enabled">false</bool>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">1dp</dimen>
 
