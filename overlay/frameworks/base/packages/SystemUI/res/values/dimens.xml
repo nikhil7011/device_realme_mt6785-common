@@ -25,6 +25,9 @@
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">1dp</dimen>
+ 
+     <!-- Disable screen locking sounds by default -->
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
 
      <!-- Disable bluetooth by default -->
     <bool name="def_bluetooth_on">false</bool>
