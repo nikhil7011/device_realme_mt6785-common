@@ -107,6 +107,9 @@
     <!--  Define Google play service package for FRP-->
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
 
+    <!-- Whether device has vooc charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool name="skip_restoring_network_selection">true</bool>
