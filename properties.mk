@@ -36,6 +36,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
+# Privapp permissions whitelisting
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
+
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.psi_complete_stall_ms=150 \
